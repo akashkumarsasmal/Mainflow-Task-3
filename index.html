@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to our hospital facility. We provide top-notch healthcare services with a focus on patient well-being.">
+    <title>Hospital Facility</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Hospital Facility</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#facilities">Our Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-us" class="introduction">
+            <h2>About Us</h2>
+            <p>Our hospital is dedicated to providing excellent healthcare services to the community. With
+                state-of-the-art facilities and a compassionate team of professionals, we ensure the best care for our
+                patients.</p>
+        </section>
+        <section id="facilities" class="facilities">
+            <h2>Our Facilities</h2>
+            <img src="hospital.jpg" alt="Picture of the hospital building">
+            <ul>
+                <li>24/7 Emergency Services</li>
+                <li>Advanced Diagnostic Imaging</li>
+                <li>Modern Operating Rooms</li>
+                <li>Comfortable Patient Rooms</li>
+                <li>Specialized Clinics</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br />
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Hospital. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
